@@ -111,7 +111,7 @@ class PDFScraperApp:
     def split_string(self, row: str) -> tuple[str]:
         pattern = re.compile(r'(\S+)\s+(\d+,\d{2})\s+(.+?)\s+(\d+,\d{2})\s+(\d+ %)\s+(\d+,\d{2})')
         match = re.match(pattern, row)
-        assert len(match.groups()) == 5, logger.debug(f"{row}\nTuple length is not equal to 6.")
+        assert len(match.groups()) == 6, logger.debug(f"{row}\nTuple length is not equal to 6.")
         return match.groups()
 
     def export_to_excel(self) -> None:
