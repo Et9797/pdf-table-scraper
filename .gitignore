@@ -1,0 +1,4 @@
+.venv/
+main.ipynb
+factuur.pdf
+*log.txt
