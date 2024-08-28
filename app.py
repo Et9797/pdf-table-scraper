@@ -19,7 +19,7 @@ class PDFScraperApp:
     def __init__(self, root) -> None:
         self.root = root
         self.root.title("PDF Scraper")
-        self.center_window(640, 480)  # Center the window with 640x480 size
+        self.center_window(660, 640)  # Center the window with 660x640 size
 
         # Create a canvas widget to hold the frames and add a scrollbar
         self.canvas = tk.Canvas(self.root)
