@@ -1,4 +1,5 @@
 .venv/
-main.ipynb
-factuur.*
 *log.txt
+build/
+dist
+app.spec
