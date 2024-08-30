@@ -57,8 +57,8 @@ class PDFScraperApp:
         self.frame2.grid_rowconfigure(0, weight=1)
 
         # Place the buttons in the grid
-        self.upload_button.grid(row=0, column=0, padx=260, pady=5, sticky="w")  #Align to the right
-        self.export_button.grid(row=1, column=0, padx=250, pady=5, sticky="e")  # Align to the left
+        self.upload_button.grid(row=0, column=0, padx=260, pady=5, sticky="w")  # Align to the left
+        self.export_button.grid(row=1, column=0, padx=250, pady=5, sticky="e")  # Align to the right
 
         self.pdf_file_path: Path = None
 
