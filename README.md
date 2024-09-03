@@ -1,3 +1,3 @@
 ## pdf-scraper
 
-Extract tables from PDF files and converts them into Excel/Pandas Dataframe format.
+Example program to extract tables from PDF files using pdfplumber, and converting them into Excel/Pandas Dataframe format.
